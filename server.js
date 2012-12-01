@@ -4,6 +4,10 @@ Basic idea:
 * collect list of torrents, update in background
 * provide list, organized by show, to clients in JSON
 * provide streaming video data from torrent to clients
+
+TODO: add user/some MVC from https://github.com/madhums/nodejs-express-mongoose-demo
+
+
 */
 
 var feedparser = require("feedparser"),
