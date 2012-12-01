@@ -1,0 +1,37 @@
+{
+	"name": "torrenttv",
+	"version": "0.0.1",
+	"author": "David Konsumer <konsumer@jetboystudio.com>",
+	"description": "Turns RSS feeds of torrents into streaming TV channels",
+	"keywords":[
+		"rss",
+		"feed",
+		"torrent",
+		"television",
+		"tv",
+		"stream"
+	],
+	"homepage": "https://github.com/konsumer/torrenttv",
+	"repository":{
+		"type":"git",
+		"url": "git@github.com:konsumer/torrenttv.git"
+	},
+	"bugs":{
+		"url":"https://github.com/konsumer/torrenttv/issues"
+	},
+	"main":"server.js",
+	"dependencies": {
+		"feedparser":"",
+		"nt":"",
+		"express":"",
+		"mongoose": ""
+	},
+	"devDependencies": {
+    	"mocha": "",
+    	"supervisor": ""
+	},
+	"scripts": {
+		"start": "supervisor server.js",
+		"test": "mocha --reporter spec"
+	}
+}
