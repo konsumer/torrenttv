@@ -1,6 +1,6 @@
 # TorrentTV
 
-This is erally just the start of some ideas.  This doesn't do much yet.
+This is really just the start of some ideas.  This doesn't do much yet.
 
 Eventually, I will integrate streaming torrent viewer, using [node-torrent](https://github.com/superafroman/node-torrent) like the [python p2ptube](http://p2ptube.sourceforge.net/).
 
