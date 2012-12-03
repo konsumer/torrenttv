@@ -6,4 +6,4 @@ Eventually, I will integrate streaming torrent viewer, using [node-torrent](http
 
 The plan is to parse an RSS feed, and add viewable torrents to a master-list. When a user chooses an episode, a streaming viewer will start downloading it, and initiate the player (mplayer, vlc, etc.)
 
-I'd like to have watch-lists (for fvorite shows) and auto-downloading (in a more standard fasion, for healthier torrent network) for unattended torrent download, so you can watch stuff when it becomes available.
+I'd like to have watch-lists (for favorite shows) and auto-downloading (in a more standard fasion, for healthier torrent network) for unattended torrent download, so you can watch stuff when it becomes available.
